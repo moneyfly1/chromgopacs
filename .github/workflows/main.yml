@@ -2,7 +2,7 @@ name: Hourly Workflow
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时执行一次，在整点时刻执行
+    - cron: '0 0,8,18 * * *'  # 每6h一次
   workflow_dispatch:  # 允许手动触发
     inputs:
         manual_run:
