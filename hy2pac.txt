@@ -6,3 +6,4 @@ hysteria://167.160.91.115:41189/?insecure=1&peer=www.amazon.cn&auth=bWAwIqINo7XD
 hysteria://108.181.5.133:26022/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#United States, Los Angeles
 hysteria://173.234.25.52:48919/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#United States, Los Angeles
 hysteria://www.dtku40.xyz:18490/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Taiwan, Banqiao
+hy2://dongtaiwang.com@74.63.233.74:33445/?insecure=1&sni=www.bing.com#United States, None
