@@ -3,6 +3,6 @@ hy2://dongtaiwang.com@185.22.152.93:33713,40000-50000/?insecure=1&sni=www.bing.c
 hy2://dongtaiwang.com@185.22.152.93:33713,40000-50000/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@185.22.152.93:33713,40000-50000/?insecure=1&sni=www.bing.com#Russia, Moscow
 hysteria://46.17.43.223:12311/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
-hysteria://46.17.43.223:12311/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
+hysteria://62.210.8.63:2345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#France, Paris
 hysteria://46.17.43.223:12311/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
 hysteria://46.17.43.223:12311/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
