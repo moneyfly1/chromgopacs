@@ -1,5 +1,5 @@
 hy2://dongtaiwang.com@185.22.152.93:47382,20000-30000/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@163.172.220.28:11622,30000-40000/?insecure=1&sni=www.bing.com#Netherlands, Amsterdam
+hy2://dongtaiwang.com@185.22.152.93:47382,20000-30000/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@185.22.152.93:47382,20000-30000/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@185.22.152.93:47382,20000-30000/?insecure=1&sni=www.bing.com#Russia, Moscow
 hysteria://46.17.43.223:12311/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
