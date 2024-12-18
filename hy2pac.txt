@@ -6,3 +6,6 @@ hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upm
 hysteria://46.17.43.223:64907,30000-40000/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
 hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
 hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
+hy2://dongtaiwang.com@108.181.5.131:7329/?insecure=1&sni=www.bing.com#United States, Los Angeles
+hy2://github.com/Alvin9999@166.1.190.83:61677/?insecure=1&sni=www.bing.com#United States, None
+hy2://github.com/Alvin9999@166.1.190.83:61677/?insecure=1&sni=www.bing.com#United States, None
