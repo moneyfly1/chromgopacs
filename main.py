@@ -6,7 +6,8 @@ import socket
 from datetime import datetime
 import yaml
 
-protocol = {"hysteria2": "hy2", "hysteria": "hysteria","tuic": "tuic"}
+protocol = {"hysteria2": "hy2", "hysteria": "hysteria", "tuic": "tuic"}
+
 def fetch_github_files(username, repository, file_paths):
     base_url = f"https://raw.githubusercontent.com/{username}/{repository}/master/"
     results = {}
@@ -50,27 +51,29 @@ def convert_to_hysteria(json_string):
     try:
         json_data = json.loads(json_string)
         location = get_physical_location(json_data['server'])
-        hysteria_string = f"hysteria://{json_data['server']}/?insecure=1&peer={json_data['server_name']}&auth={json_data['auth_str']}&upmbps={json_data['up_mbps'] * 5}&downmbps={json_data['down_mb[...]"
+        hysteria_string = (
+            f"hysteria://{json_data['server']}/"
+            f"?insecure=1&peer={json_data['server_name']}"
+            f"&auth={json_data['auth_str']}"
+            f"&upmbps={json_data['up_mbps'] * 5}"
+            f"&downmbps={json_data['down_mbps'] * 5}"
+        )
         return hysteria_string
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON: {e}")
         return None
-    
+
 def convert_to_all(content):
     try:
         data = yaml.safe_load(content)
         server_info = data['proxies'][0]
-#        if server_info['type'].startswith("hysteria"): 
-#             return None        
-#            all_string = f"hysteria://{server_info['server']}:{server_info['port']}/?auth={server_info['auth-str']}&upmbps={server_info['up'].split(' ')[0]}&downmbps={server_info['down'].split(' [...]"
         if server_info['type'].startswith("hysteria2"):
             all_string = f"hy2://{server_info['password']}@{server_info['server']}:{server_info['port']}/?insecure=1&sni={server_info['sni']}#{get_physical_location(server_info['server'])}"
         elif server_info['type'].startswith("tuic"):
-            all_string = f"tuic://{server_info['uuid']}:{server_info['password']}@{server_info['server']}:{server_info['port']}/?congestion_control={server_info['congestion-controller']}&udp_relay[...]"
+            all_string = f"tuic://{server_info['uuid']}:{server_info['password']}@{server_info['server']}:{server_info['port']}/?congestion_control={server_info['congestion-controller']}&udp_relay=1"
         else:
             return None
         return all_string
-
     except json.JSONDecodeError as e:
         print(f"Error: {e}")
         return None
@@ -91,12 +94,14 @@ def get_physical_location(address):
     except geoip2.errors.AddressNotFoundError as e:
         print(f"Error: {e}")
         return "Unknown"
-    
-    
+
 # 示例用法
 username = "Alvin9999"
 repository = "pac2"
-file_paths = ["hysteria2/config.json", "hysteria2/1/config.json", "hysteria2/13/config.json", "hysteria2/2/config.json", "hysteria/config.json", "hysteria/1/config.json", "hysteria/13/config.json"[...]
+file_paths = [
+    "hysteria2/config.json", "hysteria2/1/config.json", "hysteria2/13/config.json",
+    "hysteria2/2/config.json", "hysteria/config.json", "hysteria/1/config.json", "hysteria/13/config.json"
+]
 pac_list = []
 results = fetch_github_files(username, repository, file_paths)
 for file_path, content in results.items():
@@ -107,8 +112,8 @@ for file_path, content in results.items():
     else:
         pac_list.append(convert_to_all(content))
 filtered_pac_list = [item for item in pac_list if item is not None]
-with open('hy2pac.txt','w') as f:
+with open('hy2pac.txt', 'w') as f:
     f.write('\n'.join(filtered_pac_list))
 current_time = datetime.now()
-with open(f"update_time.txt", 'w') as a:
+with open("update_time.txt", 'w') as a:
     a.write(current_time.strftime("%Y-%m-%d %H:%M:%S"))
