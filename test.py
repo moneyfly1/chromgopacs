@@ -1,10 +1,13 @@
 import yaml
 import requests
 # 读取 .yaml 文件
-response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml")
-response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml")
-response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml")
-response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/3/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/2/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/15/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/13/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/1/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/config.yaml")
+response = requests.get("https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/config.yaml")
 response.encoding = 'utf-8'
 data = yaml.safe_load(response.text)
 print(data)
