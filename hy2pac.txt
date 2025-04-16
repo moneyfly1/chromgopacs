@@ -1,8 +1,7 @@
-hy2://dongtaiwang.com@46.17.41.189:50717,30000-40000/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.17.41.189:50717,30000-40000/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.17.41.189:50717,30000-40000/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.17.41.189:50717,30000-40000/?insecure=1&sni=www.bing.com#Russia, Moscow
-hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
-hysteria://46.17.43.223:64907,30000-40000/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
-hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
-hysteria://46.17.43.223:12345/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=55&downmbps=110&alpn=h3#Russia, Moscow
+hy2://dongtaiwang.com@46.17.41.217:64816/?insecure=1&sni=www.bing.com#Russia, Moscow
+hy2://dongtaiwang.com@46.29.163.171:32555/?insecure=1&sni=www.bing.com#Russia, Moscow
+hy2://dongtaiwang.com@46.17.41.217:64816/?insecure=1&sni=www.bing.com#Russia, Moscow
+hy2://dongtaiwang.com@46.29.163.171:32555/?insecure=1&sni=www.bing.com#Russia, Moscow
+hysteria://46.17.41.174:10469/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://46.17.41.174:10469/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
