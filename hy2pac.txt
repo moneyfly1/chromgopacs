@@ -2,6 +2,5 @@ hy2://dongtaiwang.com@hy2.694463.xyz:10011/?insecure=1&sni=www.bing.com#Russia, 
 hy2://dongtaiwang.com@hy2.694463.xyz:10011/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@hy2.694463.xyz:10011/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@hy2.694463.xyz:10011/?insecure=1&sni=www.bing.com#Russia, Moscow
-hysteria://46.17.41.174:10469/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
 hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
 hysteria://46.17.41.174:10469/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
