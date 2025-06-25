@@ -1,7 +1,7 @@
 hy2://dongtaiwang.com@45.129.2.108:50850/?insecure=1&sni=www.bing.com#Russia, Moscow
 hy2://dongtaiwang.com@46.17.41.217:30033/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.29.163.171:30033/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.29.163.171:30033/?insecure=1&sni=www.bing.com#Russia, Moscow
+hy2://dongtaiwang.com@45.129.2.248:23579/?insecure=1&sni=www.bing.com#Russia, Moscow
+hy2://dongtaiwang.com@45.129.2.248:23579/?insecure=1&sni=www.bing.com#Russia, Moscow
 hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
 hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
 hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
