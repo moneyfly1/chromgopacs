@@ -1,7 +1,7 @@
-hy2://dongtaiwang.com@45.129.2.108:50850/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@46.17.41.217:30033/?insecure=1&sni=www.bing.com#Russia, Moscow
-hy2://dongtaiwang.com@163.172.217.10:10011/?insecure=1&sni=www.bing.com#Netherlands, Amsterdam
-hy2://dongtaiwang.com@163.172.217.10:10011/?insecure=1&sni=www.bing.com#Netherlands, Amsterdam
-hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
-hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
-hysteria://185.22.155.71:10803/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
+hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
+hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
+hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
+hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
