@@ -1,7 +1,7 @@
-hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
-hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
-hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
-hy2://dongtaiwang.com@64.31.63.57:44462/?insecure=1&sni=apple.com#France, Paris
-hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
-hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
-hysteria://172.245.235.201:38814/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hy2://dongtaiwang.com@104.168.10.176:35205,10000-20000/?insecure=1&sni=apple.com#United States, None
+hy2://dongtaiwang.com@104.168.10.176:35205,10000-20000/?insecure=1&sni=apple.com#United States, None
+hy2://dongtaiwang.com@104.168.10.176:35205,10000-20000/?insecure=1&sni=apple.com#United States, None
+hy2://dongtaiwang.com@104.168.10.176:35205,10000-20000/?insecure=1&sni=apple.com#United States, None
+hysteria://109.104.153.91:37519,10000-20000/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://109.104.153.91:37519,10000-20000/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
+hysteria://109.104.153.91:37519,10000-20000/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=55&downmbps=275
